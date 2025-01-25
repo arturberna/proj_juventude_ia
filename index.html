@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juventude e IA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@400;500&family=Orbitron:wght@500&family=Quantico&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <!-- Navbar dentro da Hero -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="img/logo_color.png" alt="">    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#minicursos">Minicursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#oficinas">Oficinas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1>Juventude e IA</h1>
+        <p>Descubra como a IA pode transformar vidas e o seu papel nessa revolução.</p>
+        <div class="cta">
+            <button class="btn btn-warning btn-lg me-3">Saiba Mais</button>
+            <!-- <button class="btn btn-outline-light btn-lg">Saiba mais</button> -->
+        </div>
+        <a href="#objetivos" class="chevron">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+    <!-- sobre -->
+    <section id="sobre-projeto">
+      <div class="sobre-container">
+        <div class="sobre-texto">
+          <h2>Sobre o Projeto</h2>
+          <p>
+            O <strong>Juventude e IA: Transformando o Futuro</strong> é uma iniciativa inovadora voltada para promover a inclusão digital e capacitação tecnológica de adolescentes em situação de vulnerabilidade. Por meio de oficinas práticas, abordamos temas como inteligência artificial, ética digital, e empreendedorismo, capacitando os jovens para o mercado de trabalho e contribuindo para a transformação social.
+          </p>
+          <p>
+            Nosso objetivo é inspirar uma nova geração de líderes criativos e conscientes, prontos para enfrentar os desafios de um mundo em constante evolução tecnológica.
+          </p>
+          <a href="#destaques" class="btn-saiba-mais">Saiba Mais</a>
+        </div>
+        <div class="sobre-imagem">
+          <img src="https://images.pexels.com/photos/5621976/pexels-photo-5621976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Jovens aprendendo tecnologia">
+        </div>
+      </div>
+    </section>
+    <!-- Objetivos -->
+    <!-- <section id="objetivos" class="section-layout">
+        <div class="container">
+          <h2 class="titulo-secao">Nossos Objetivos</h2>
+          <p class="descricao-secao">
+            Promovemos a transformação social por meio da inclusão digital e da capacitação em inteligência artificial. Confira como buscamos impactar positivamente a vida de nossos jovens.
+          </p>
+          <div class="grade-objetivos">
+            <div class="cartao">
+              <div class="icone">🌐</div>
+              <h3 class="titulo-cartao">Inclusão Digital</h3>
+              <p class="descricao-cartao">
+                Oferecemos acesso a ferramentas tecnológicas e conhecimentos em IA para capacitar adolescentes em situação de vulnerabilidade.
+              </p>
+            </div>
+            <div class="cartao">
+              <div class="icone">🤖</div>
+              <h3 class="titulo-cartao">Capacitação Tecnológica</h3>
+              <p class="descricao-cartao">
+                Ensinamos aos jovens ferramentas básicas de informática e introduzir conceitos de inteligência artificial.
+              </p>
+            </div>
+            <div class="cartao">
+              <div class="icone">🌱</div>
+              <h3 class="titulo-cartao">Desenvolvimento Social</h3>
+              <p class="descricao-cartao">
+                Preparamos adolescentes para uma convivência social positiva, incentivando o aprendizado contínuo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section id="objetivos">
+        <h2>Objetivos do Projeto</h2>
+        <div class="objetivos-container">
+          <div class="objetivo-card">
+            <div class="icone">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Inclusão Digital</h3>
+            <p>Capacitar jovens em situação de vulnerabilidade com habilidades em tecnologia e inteligência artificial.</p>
+            <button class="btn-detalhes" onclick="toggleDetalhes(this)">
+              Saiba Mais
+            </button>
+            <div class="detalhes oculto">
+              <p>
+                Promovemos workshops práticos e acessíveis para que todos tenham a oportunidade de se conectar ao futuro digital.
+              </p>
+            </div>
+          </div>
+          <div class="objetivo-card">
+            <div class="icone">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3>Impacto Social</h3>
+            <p>Apoio à ressocialização dos adolescentes e ao fortalecimento de seus vínculos sociais.</p>
+            <button class="btn-detalhes" onclick="toggleDetalhes(this)">
+              Saiba Mais
+            </button>
+            <div class="detalhes oculto">
+              <p>
+                Fomentar habilidades críticas e criativas por meio de oficinas práticas e rodas de conversa
+              </p>
+            </div>
+          </div>
+          <div class="objetivo-card">
+            <div class="icone">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Carreiras Futuras</h3>
+            <p>Preparar os jovens para o mercado de trabalho em áreas de alta demanda tecnológica.</p>
+            <button class="btn-detalhes" onclick="toggleDetalhes(this)">
+              Saiba Mais
+            </button>
+            <div class="detalhes oculto">
+              <p>
+                Oferecemos orientação de carreira e conexões com empresas líderes do mercado de tecnologia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Destaques
+      <section id="destaques">
+        <div class="destaques-bg"></div>
+        <h2 class="titulo-secao">Nossos Objetivos</h2>
+        <p class="descricao-secao">
+          Promovemos a transformação social por meio da inclusão digital e da capacitação em inteligência artificial. Confira como buscamos impactar positivamente a vida de nossos jovens.
+        </p>
+        <div class="destaques-container">
+          <div class="destaque-item">
+            <div class="destaque-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3><span class="counter" data-target="200">0</span>+</h3>
+            <p>Jovens Capacitados</p>
+          </div>
+          <div class="destaque-item">
+            <div class="destaque-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3><span class="counter" data-target="15">0</span></h3>
+            <p>Parcerias Estabelecidas</p>
+          </div>
+          <div class="destaque-item">
+            <div class="destaque-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3><span class="counter" data-target="5">0</span></h3>
+            <p>Prêmios Recebidos</p>
+          </div>
+          <div class="destaque-item">
+            <div class="destaque-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3><span class="counter" data-target="50">0</span>+</h3>
+            <p>Projetos Criados</p>
+          </div>
+        </div>
+      </section>
+       -->
+      <!-- Depoimentos -->
+      <section id="depoimentos" class="section-layout">
+        <div class="container">
+          <h2 class="titulo-secao">O que dizem sobre o projeto</h2>
+          <div class="carrossel">
+            <div class="depoimento">
+              <p class="texto-depoimento">
+                "O projeto me deu a oportunidade de aprender algo que nunca imaginei: inteligência artificial! Agora vejo um futuro melhor."
+              </p>
+              <div class="info-depoente">
+                <img src="img/aluno.jpg" alt="Foto do depoente" class="foto-depoente">
+                <p class="nome-depoente">João Silva</p>
+                <p class="cargo-depoente">Aluno do projeto</p>
+              </div>
+            </div>
+            <div class="depoimento">
+              <p class="texto-depoimento">
+                "A parceria com o Juventude e IA foi incrível. É emocionante ver o impacto positivo na vida dos jovens."
+              </p>
+              <div class="info-depoente">
+                <img src="img/parceiro.jpg" alt="Foto do depoente" class="foto-depoente">
+                <p class="nome-depoente">Maria Santos</p>
+                <p class="cargo-depoente">Parceira do projeto</p>
+              </div>
+            </div>
+            <div class="depoimento">
+                <p class="texto-depoimento">
+                  "A parceria com o Juventude e IA foi incrível. É emocionante ver o impacto positivo na vida dos jovens."
+                </p>
+                <div class="info-depoente">
+                  <img src="img/parceiro.jpg" alt="Foto do depoente" class="foto-depoente">
+                  <p class="nome-depoente">Maria Santos</p>
+                  <p class="cargo-depoente">Parceira do projeto</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+     <!-- parceiros -->
+     <section id="parceiros">
+      <h2>Nossos Parceiros</h2>
+      <p class="descricao">Apoiadores que acreditam no poder da transformação tecnológica e social.</p>
+      <div class="logos-container">
+        <div class="logo-item">
+          <img src="parceiro1.png" alt="Parceiro 1">
+        </div>
+        <div class="logo-item">
+          <img src="parceiro2.png" alt="Parceiro 2">
+        </div>
+        <div class="logo-item">
+          <img src="parceiro3.png" alt="Parceiro 3">
+        </div>
+        
+        <!-- Adicione mais logos conforme necessário -->
+      </div>
+    </section>
+    <!-- contato -->
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <p class="descricao">Estamos prontos para responder às suas perguntas e ouvir suas ideias!</p>
+      <div class="contato-grid">
+        <!-- Formulário de Contato -->
+        <form class="formulario" action="/enviar-mensagem" method="POST">
+          <div class="form-row">
+            <div class="col">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="col">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-wide">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    
+        <!-- Informações de Contato -->
+        <div class="informacoes-contato">
+          <h3>Outras Formas de Contato</h3>
+          <p><strong>E-mail:</strong> contato@juventudeeia.org</p>
+          <p><strong>Telefone:</strong> (99) 1234-5678</p>
+          <p><strong>Endereço:</strong> Rua da Tecnologia, 123 - Centro</p>
+          <ul class="redes-sociais">
+            <li><a href="#" aria-label="Facebook" class="facebook"></a></li>
+            <li><a href="#" aria-label="Twitter" class="twitter"></a></li>
+            <li><a href="#" aria-label="Instagram" class="instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="img/logo_color.png" alt="Logo do Juventude e IA" />
+            <p>&copy; 2024 Juventude e IA. Todos os direitos reservados.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Links Importantes</h3>
+            <ul>
+              <li><a href="sobre.html">Sobre Nós</a></li>
+              <li><a href="agenda.html">Agenda</a></li>
+              <li><a href="impacto.html">Impacto</a></li>
+              <li><a href="parcerias.html">Parcerias</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Redes Sociais</h3>
+            <ul>
+              <li><a href="https://facebook.com/juventudeIA" target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com/juventudeIA" target="_blank">Twitter</a></li>
+              <li><a href="https://instagram.com/juventudeIA" target="_blank">Instagram</a></li>
+              <li><a href="https://linkedin.com/company/juventudeIA" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
